@@ -9,7 +9,7 @@ body {
   padding: 0;
   font-family: 'Montserrat';
 }
-@media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
+@media screen and (max-width: 1346px) { /* Match max-width of .nav-bar query. */
   body {
     margin-top: 51px; /* Offset body content by navbar height. */
   }

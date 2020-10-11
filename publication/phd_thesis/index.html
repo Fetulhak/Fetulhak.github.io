@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.54.0" />
-  <meta name="author" content="Dr. Ir. Steven Puttemans">
+  <meta name="author" content="Fetulhak Abdurahman">
 
   
   
@@ -17,10 +17,26 @@
       
     
   
-  <meta name="description" content="State-of-the-art object detection algorithms are designed to be heavily robust against scene and object variations like illumination changes, occlusions, scale changes, orientation differences, background clutter and object intra-class variability. However, in industrial machine vision applications, where objects with variable appearance have to be detected, many of these variations are in fact constant and can be seen as scene specific constraints on the detection problem. These scene constraints can be used to reduce the enormous search space for object candidates, and thus speed up the actual detection process and improve it’s accuracy. In this PhD we will explore the possibility to use scene specific constraints of industrial object detection tasks to influence three main aspects of object detection algorithms: 1. Reduce the amount of training data needed. We will try to reduce the required amount of manually annotated training data as much as possible. | 2. Increase the speed of the detection process. Since we are working in an industrial application related context, maintaining real-time performance is a hard constraint. | 3. Reduce the amount of false positive and false negative detections. We aim at building object detection algorithms that are able to detect all objects in a given image or video stream with a high certainty. Moreover, we will propose steps to simplify the training process under such scene constraints, used for creating object specific models. For this we look into techniques like active learning and data augmentation, in order to heavily reduce the amount of manual input required by the algorithm.">
+  <meta name="description" content="In this MSc thesis we design and implement a host based lightweight
+security auditing tool that suits resource-constrained mobile devices in terms of low storage and
+computational requirements. Our proposed solution utilizes the open nature of the Android
+operating system and uses the public APIs provided by the Android SDK to collect features of
+known-benign and known-malicious applications. The collected features are then provided to
+machine learning algorithm to develop a baseline classification model. This classification model
+is then used to classify new or unknown applications either as malware or goodware and if it is
+malware it alerts the user about the infection. 
+Our proposed solution has been tested by analyzing both malicious and benign applications
+collected from different websites. The technique used is shown to be an effective means of
+detecting malware and alerting users about detection of malware, which suggests that it has the
+capability to stop the spread of the attack since once the user is aware of the malicious
+application he can take measures by uninstalling the application. Experimental results show that
+the proposed solution has detection rate of 96.73% in RandomForest machine learning model which is
+used during the final development of our proposed solution as an Android application and low rate of
+false positive rate(0.01). Performance impact on the Android system can also be ignored which is
+only 3.7-5.6% CPU overhead, 3-4% of RAM overhead and the battery exhaustion is only 2%. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://stevenputtemans.github.io/publication/phd_thesis/">
+  <link rel="alternate" hreflang="en-us" href="http://Fetulhak.github.io/publication/phd_thesis/">
 
   
 
@@ -74,15 +90,15 @@
   
 
   
-  <link rel="alternate" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
-  <link rel="feed" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="alternate" href="http://Fetulhak.github.io/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="feed" href="http://Fetulhak.github.io/index.xml" type="application/rss+xml" title="Personal Website">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://stevenputtemans.github.io/publication/phd_thesis/">
+  <link rel="canonical" href="http://Fetulhak.github.io/publication/phd_thesis/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,19 +106,35 @@
   <meta property="twitter:creator" content="@https://twitter.com/StevenPuttemans?lang=nl">
   
   <meta property="og:site_name" content="Personal Website">
-  <meta property="og:url" content="http://stevenputtemans.github.io/publication/phd_thesis/">
-  <meta property="og:title" content="Exploiting scene constraints to improve object detection algorithms for industrial applications | Personal Website">
-  <meta property="og:description" content="State-of-the-art object detection algorithms are designed to be heavily robust against scene and object variations like illumination changes, occlusions, scale changes, orientation differences, background clutter and object intra-class variability. However, in industrial machine vision applications, where objects with variable appearance have to be detected, many of these variations are in fact constant and can be seen as scene specific constraints on the detection problem. These scene constraints can be used to reduce the enormous search space for object candidates, and thus speed up the actual detection process and improve it’s accuracy. In this PhD we will explore the possibility to use scene specific constraints of industrial object detection tasks to influence three main aspects of object detection algorithms: 1. Reduce the amount of training data needed. We will try to reduce the required amount of manually annotated training data as much as possible. | 2. Increase the speed of the detection process. Since we are working in an industrial application related context, maintaining real-time performance is a hard constraint. | 3. Reduce the amount of false positive and false negative detections. We aim at building object detection algorithms that are able to detect all objects in a given image or video stream with a high certainty. Moreover, we will propose steps to simplify the training process under such scene constraints, used for creating object specific models. For this we look into techniques like active learning and data augmentation, in order to heavily reduce the amount of manual input required by the algorithm.">
+  <meta property="og:url" content="http://Fetulhak.github.io/publication/phd_thesis/">
+  <meta property="og:title" content="Lightweight Security Auditing Tool for Android Smart Mobile Phone | Personal Website">
+  <meta property="og:description" content="In this MSc thesis we design and implement a host based lightweight
+security auditing tool that suits resource-constrained mobile devices in terms of low storage and
+computational requirements. Our proposed solution utilizes the open nature of the Android
+operating system and uses the public APIs provided by the Android SDK to collect features of
+known-benign and known-malicious applications. The collected features are then provided to
+machine learning algorithm to develop a baseline classification model. This classification model
+is then used to classify new or unknown applications either as malware or goodware and if it is
+malware it alerts the user about the infection. 
+Our proposed solution has been tested by analyzing both malicious and benign applications
+collected from different websites. The technique used is shown to be an effective means of
+detecting malware and alerting users about detection of malware, which suggests that it has the
+capability to stop the spread of the attack since once the user is aware of the malicious
+application he can take measures by uninstalling the application. Experimental results show that
+the proposed solution has detection rate of 96.73% in RandomForest machine learning model which is
+used during the final development of our proposed solution as an Android application and low rate of
+false positive rate(0.01). Performance impact on the Android system can also be ignored which is
+only 3.7-5.6% CPU overhead, 3-4% of RAM overhead and the battery exhaustion is only 2%.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-12-13T16:39:24&#43;01:00">
+  <meta property="article:published_time" content="2014-06-13T16:39:24&#43;01:00">
   
-  <meta property="article:modified_time" content="2017-12-13T16:39:24&#43;01:00">
-  
-
+  <meta property="article:modified_time" content="2014-06-13T16:39:24&#43;01:00">
   
 
-  <title>Exploiting scene constraints to improve object detection algorithms for industrial applications | Personal Website</title>
+  
+
+  <title>Lightweight Security Auditing Tool for Android Smart Mobile Phone  | Personal Website</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -251,10 +283,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Exploiting scene constraints to improve object detection algorithms for industrial applications</h1>
+    <h1 itemprop="name">Lightweight Security Auditing Tool for Android Smart Mobile Phone </h1>
     <span class="pub-authors" itemprop="author">
       
-      Steven Puttemans
+      Fetulhak Abdurahman
       
     </span>
     <span class="pull-right">
@@ -305,7 +337,23 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">State-of-the-art object detection algorithms are designed to be heavily robust against scene and object variations like illumination changes, occlusions, scale changes, orientation differences, background clutter and object intra-class variability. However, in industrial machine vision applications, where objects with variable appearance have to be detected, many of these variations are in fact constant and can be seen as scene specific constraints on the detection problem. These scene constraints can be used to reduce the enormous search space for object candidates, and thus speed up the actual detection process and improve it’s accuracy. In this PhD we will explore the possibility to use scene specific constraints of industrial object detection tasks to influence three main aspects of object detection algorithms: 1. Reduce the amount of training data needed. We will try to reduce the required amount of manually annotated training data as much as possible. | 2. Increase the speed of the detection process. Since we are working in an industrial application related context, maintaining real-time performance is a hard constraint. | 3. Reduce the amount of false positive and false negative detections. We aim at building object detection algorithms that are able to detect all objects in a given image or video stream with a high certainty. Moreover, we will propose steps to simplify the training process under such scene constraints, used for creating object specific models. For this we look into techniques like active learning and data augmentation, in order to heavily reduce the amount of manual input required by the algorithm.</p>
+    <p class="pub-abstract" itemprop="text">In this MSc thesis we design and implement a host based lightweight
+security auditing tool that suits resource-constrained mobile devices in terms of low storage and
+computational requirements. Our proposed solution utilizes the open nature of the Android
+operating system and uses the public APIs provided by the Android SDK to collect features of
+known-benign and known-malicious applications. The collected features are then provided to
+machine learning algorithm to develop a baseline classification model. This classification model
+is then used to classify new or unknown applications either as malware or goodware and if it is
+malware it alerts the user about the infection. 
+Our proposed solution has been tested by analyzing both malicious and benign applications
+collected from different websites. The technique used is shown to be an effective means of
+detecting malware and alerting users about detection of malware, which suggests that it has the
+capability to stop the spread of the attack since once the user is aware of the malicious
+application he can take measures by uninstalling the application. Experimental results show that
+the proposed solution has detection rate of 96.73% in RandomForest machine learning model which is
+used during the final development of our proposed solution as an Android application and low rate of
+false positive rate(0.01). Performance impact on the Android system can also be ignored which is
+only 3.7-5.6% CPU overhead, 3-4% of RAM overhead and the battery exhaustion is only 2%.</p>
     
 
     
@@ -348,7 +396,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Wed, Dec 13, 2017
+            June, 2014
           </div>
         </div>
       </div>
@@ -368,7 +416,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://lirias.kuleuven.be/bitstream/123456789/597085/2/compressed_dissertation_steven_puttemans.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="http://etd.aau.edu.et/handle/123456789/4194" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -382,7 +430,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://stevenputtemans.github.io/files/public_defense.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="http://Fetulhak.github.io/files/public_defense.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 

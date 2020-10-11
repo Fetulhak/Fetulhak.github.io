@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.54.0" />
-  <meta name="author" content="Dr. Ir. Steven Puttemans">
+  <meta name="author" content="Fetulhak Abdurahman">
 
   
   
@@ -17,10 +17,20 @@
       
     
   
-  <meta name="description" content="The uprising trend of deep learning in computer vision and artificial intelligence can simply not be ignored. On the most diverse tasks, from recognition and detection to segmentation, deep learning is able to obtain state-of-the-art results, reaching top notch performance. In this paper we explore how deep convolutional neural networks dedicated to the task of object detection can improve our industrial-oriented object pipelines, using state-of-the-art open source deep learning frameworks, like Darknet. By using a deep learning architecture that integrates region proposals, classification and probability estimation in a single run, we aim at obtaining real-time performance. We focus on reducing the needed amount of training data drastically by exploring transfer learning, while still maintaining a high average precision. Furthermore we apply these algorithms to several applications. We start with a dummy case of rock-scissors-paper to prove the concept, followed by two industrial relevant applications, one being the detection of promotion boards in eye tracking data and the other detecting and recognizing packages of warehouse products for augmented advertisements. These applications prove the efficiency of the deep object detection algorithm in both single- and multi-class scenarios.">
+  <meta name="description" content="Manual microscopic examination is still the golden standard
+                                    for malaria diagnosis. The challenge in the manual microscopy is the 
+                                    fact that its accuracy, consistency and speed of diagnosis depends on the 
+                                    skill of the laboratory technician. It is difficult to get highly skilled laboratory technicians in the remote areas of developing 
+                                    countries. In order to alleviate this problem, in this paper, we propose and investigate the state-of-the-art one-stage and two-stage 
+                                    object detection algorithms for automated malaria parasite screening from thick blood slides. YOLOV3 and YOLOV4 are state-of-the-art object
+                                    detectors both in terms of accuracy and speed; however, they are not optimized for the detection of small objects such as malaria parasite 
+                                    in microscopic images. To deal with these challenges, we have modified YOLOV3 and YOLOV4 models by increasing the feature scale and by 
+                                    adding more detection layers, without notably decreasing their detection speed. We have proposed one modified YOLOV4 model, called 
+                                    YOLOV4-MOD and two modified models for YOLOV3, which are called YOLOV3-MOD1 and YOLOV3-MOD2. In addition, we have generated new 
+                                    anchor box scales and sizes by using the K-means clustering algorithm to exploit small object detection learning ability of the models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://stevenputtemans.github.io/publication/visapp2018_industrial/">
+  <link rel="alternate" hreflang="en-us" href="http://Fetulhak.github.io/publication/visapp2018_industrial/">
 
   
 
@@ -74,15 +84,15 @@
   
 
   
-  <link rel="alternate" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
-  <link rel="feed" href="http://stevenputtemans.github.io/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="alternate" href="http://Fetulhak.github.io/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="feed" href="http://Fetulhak.github.io/index.xml" type="application/rss+xml" title="Personal Website">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://stevenputtemans.github.io/publication/visapp2018_industrial/">
+  <link rel="canonical" href="http://Fetulhak.github.io/publication/visapp2018_industrial/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,19 +100,31 @@
   <meta property="twitter:creator" content="@https://twitter.com/StevenPuttemans?lang=nl">
   
   <meta property="og:site_name" content="Personal Website">
-  <meta property="og:url" content="http://stevenputtemans.github.io/publication/visapp2018_industrial/">
-  <meta property="og:title" content="Building Robust Industrial Applicable Object Detection Models Using Transfer Learning and Single Pass Deep Learning Architectures | Personal Website">
-  <meta property="og:description" content="The uprising trend of deep learning in computer vision and artificial intelligence can simply not be ignored. On the most diverse tasks, from recognition and detection to segmentation, deep learning is able to obtain state-of-the-art results, reaching top notch performance. In this paper we explore how deep convolutional neural networks dedicated to the task of object detection can improve our industrial-oriented object pipelines, using state-of-the-art open source deep learning frameworks, like Darknet. By using a deep learning architecture that integrates region proposals, classification and probability estimation in a single run, we aim at obtaining real-time performance. We focus on reducing the needed amount of training data drastically by exploring transfer learning, while still maintaining a high average precision. Furthermore we apply these algorithms to several applications. We start with a dummy case of rock-scissors-paper to prove the concept, followed by two industrial relevant applications, one being the detection of promotion boards in eye tracking data and the other detecting and recognizing packages of warehouse products for augmented advertisements. These applications prove the efficiency of the deep object detection algorithm in both single- and multi-class scenarios.">
+  <meta property="og:url" content="http://Fetulhak.github.io/publication/visapp2018_industrial/">
+  <meta property="og:title" content="Developing Malaria parasite detection Sytem using modified YOLO object detection 
+	    Algorithm | Personal Website">
+  <meta property="og:description" content="Manual microscopic examination is still the golden standard
+                                    for malaria diagnosis. The challenge in the manual microscopy is the 
+                                    fact that its accuracy, consistency and speed of diagnosis depends on the 
+                                    skill of the laboratory technician. It is difficult to get highly skilled laboratory technicians in the remote areas of developing 
+                                    countries. In order to alleviate this problem, in this paper, we propose and investigate the state-of-the-art one-stage and two-stage 
+                                    object detection algorithms for automated malaria parasite screening from thick blood slides. YOLOV3 and YOLOV4 are state-of-the-art object
+                                    detectors both in terms of accuracy and speed; however, they are not optimized for the detection of small objects such as malaria parasite 
+                                    in microscopic images. To deal with these challenges, we have modified YOLOV3 and YOLOV4 models by increasing the feature scale and by 
+                                    adding more detection layers, without notably decreasing their detection speed. We have proposed one modified YOLOV4 model, called 
+                                    YOLOV4-MOD and two modified models for YOLOV3, which are called YOLOV3-MOD1 and YOLOV3-MOD2. In addition, we have generated new 
+                                    anchor box scales and sizes by using the K-means clustering algorithm to exploit small object detection learning ability of the models.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-28T16:39:24&#43;01:00">
+  <meta property="article:published_time" content="2020-09-28T16:39:24&#43;01:00">
   
-  <meta property="article:modified_time" content="2018-01-28T16:39:24&#43;01:00">
-  
-
+  <meta property="article:modified_time" content="2018-09-28T16:39:24&#43;01:00">
   
 
-  <title>Building Robust Industrial Applicable Object Detection Models Using Transfer Learning and Single Pass Deep Learning Architectures | Personal Website</title>
+  
+
+  <title>Developing Malaria parasite detection Sytem using modified YOLO object detection 
+	    Algorithm | Personal Website</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -251,10 +273,11 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Building Robust Industrial Applicable Object Detection Models Using Transfer Learning and Single Pass Deep Learning Architectures</h1>
+    <h1 itemprop="name">Developing Malaria parasite detection Sytem using modified YOLO object detection 
+	    Algorithm</h1>
     <span class="pub-authors" itemprop="author">
       
-      Steven Puttemans, Timothy Callemein, Toon Goedeme
+      Fetulhak Abdurahman, Kinde Anlay, Mohammed Aliy
       
     </span>
     <span class="pull-right">
@@ -305,7 +328,17 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">The uprising trend of deep learning in computer vision and artificial intelligence can simply not be ignored. On the most diverse tasks, from recognition and detection to segmentation, deep learning is able to obtain state-of-the-art results, reaching top notch performance. In this paper we explore how deep convolutional neural networks dedicated to the task of object detection can improve our industrial-oriented object pipelines, using state-of-the-art open source deep learning frameworks, like Darknet. By using a deep learning architecture that integrates region proposals, classification and probability estimation in a single run, we aim at obtaining real-time performance. We focus on reducing the needed amount of training data drastically by exploring transfer learning, while still maintaining a high average precision. Furthermore we apply these algorithms to several applications. We start with a dummy case of rock-scissors-paper to prove the concept, followed by two industrial relevant applications, one being the detection of promotion boards in eye tracking data and the other detecting and recognizing packages of warehouse products for augmented advertisements. These applications prove the efficiency of the deep object detection algorithm in both single- and multi-class scenarios.</p>
+    <p class="pub-abstract" itemprop="text">Manual microscopic examination is still the golden standard
+                                    for malaria diagnosis. The challenge in the manual microscopy is the 
+                                    fact that its accuracy, consistency and speed of diagnosis depends on the 
+                                    skill of the laboratory technician. It is difficult to get highly skilled laboratory technicians in the remote areas of developing 
+                                    countries. In order to alleviate this problem, in this paper, we propose and investigate the state-of-the-art one-stage and two-stage 
+                                    object detection algorithms for automated malaria parasite screening from thick blood slides. YOLOV3 and YOLOV4 are state-of-the-art object
+                                    detectors both in terms of accuracy and speed; however, they are not optimized for the detection of small objects such as malaria parasite 
+                                    in microscopic images. To deal with these challenges, we have modified YOLOV3 and YOLOV4 models by increasing the feature scale and by 
+                                    adding more detection layers, without notably decreasing their detection speed. We have proposed one modified YOLOV4 model, called 
+                                    YOLOV4-MOD and two modified models for YOLOV3, which are called YOLOV3-MOD1 and YOLOV3-MOD2. In addition, we have generated new 
+                                    anchor box scales and sizes by using the K-means clustering algorithm to exploit small object detection learning ability of the models. </p>
     
 
     
@@ -317,7 +350,7 @@
           <div class="col-xs-12 col-sm-9">
             
             <a href="/publication/#1">
-              Conference paper
+              Research Paper
             </a>
             
           </div>
@@ -334,7 +367,8 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">Proceedings of the 13th international joint conference on computer vision, imaging and computer graphics theory and applications</div>
+          <div class="col-xs-12 col-sm-9"> 
+Biomedical Engineering</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -348,7 +382,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Sun, Jan 28, 2018
+             Sep 22, 2018
           </div>
         </div>
       </div>

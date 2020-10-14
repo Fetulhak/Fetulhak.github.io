@@ -6,6 +6,13 @@
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
  *  https://github.com/gcushen/hugo-academic
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
  **************************************************/
 
 /*************************************************
@@ -124,12 +131,7 @@ a:focus {
   color: #0095eb;
 }
 
-img,
-video {
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
+
 
 .img-responsive {
   /* Extend Bootstrap declaration with centering. */

@@ -1097,7 +1097,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 50px !important;
 }
 
 .navbar-default {

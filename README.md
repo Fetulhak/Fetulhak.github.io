@@ -6,3 +6,6 @@
 
 
 
+Thanks for visiting!  
+
+   Fetulhak A. 
